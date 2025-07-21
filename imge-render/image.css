@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+img{
+    border-radius: 999px;
+}

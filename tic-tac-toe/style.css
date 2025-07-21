@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+.button-element{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 4px;
+    border:none;
+    box-shadow: 0 0 2px rgb(12, 34, 123);
+    font-size: 70px;
+    color:black;
+}
+#reset,.new-button{
+    padding:10px;
+    font-size: 1.25rem;
+    background-color: black;
+    color:whitesmoke;
+    border: none;    
+    border-radius: 10px;
+    cursor: pointer;
+}
+.message{
+    color:black;
+    font-size: 50px;
+}
+.winner-message{
+    height: 20vmin;
+    display: none;
+    
+}
