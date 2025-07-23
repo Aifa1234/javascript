@@ -85,7 +85,7 @@
 
 //     // --------------IMPORTANT------------------------
 //     // ---this={} internally create when by new keyword-----
-//     this.name=name;
+//     this.name=name;    
 // }
 
 // const p1=new person1("aifa")

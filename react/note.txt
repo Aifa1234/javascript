@@ -1,0 +1,39 @@
+-Basic of javascript
+  variables
+-hoisiting function
+-function
+  arrow
+  higher order function
+
+-Array and Object 
+ array destructuring
+ object destructuring
+ rest operator
+ spread operator
+-condition
+-array method
+ map()
+ filter()
+ reduce()
+ sort()
+-Event Listeners
+  onClick
+  onBlur
+  onChnage
+  onFocus
+
+  setTimeOut()
+  setInterval()
+-Event Bubling
+-Event Capturing
+
+-Asynchronous Event callback
+callback hell
+promise
+promise API
+
+-async
+-await
+
+-try 
+-catch 

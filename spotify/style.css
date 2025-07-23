@@ -1,0 +1,109 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+*{
+    padding:0;
+    margin:0
+}
+body{
+    background-color: whitesmoke;
+}
+nav{
+ font-family:'Times New Roman', Times, serif
+}  
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    gap:30px
+}
+nav ul li{
+    padding:0 12px
+}
+.logo img{
+    height: 40px;
+    width: 44px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    width: 44px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.pxNS-dKOeOsS-D53ysKrhAAAAA?pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: contain;
+  background-position: center;
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin: 12px 0;
+    display: flex;
+    flex-direction: row;
+    gap:20px
+}
+.icon i{
+    font-size: 30px;
+    color:white;
+    cursor: pointer;
+}
+#progress-bar{
+    width: 80vw;             
+} 
+.song-item{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    gap:10px
+}  
+.song-item img{
+    height: 50px;
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 50px;
+}    
+.timestamp{   
+ margin:  auto 10px;
+}
+.timestamp i{
+    cursor: pointer;
+}  
+.song-info{
+    color:white;
+    display: flex;
+}
+.song-info img{
+    opacity:0;
+    transition: opacity 1s ease-in;
+}       
